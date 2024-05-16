@@ -1,0 +1,35 @@
+.display{
+    margin-left: 10%;
+    color: #747474;
+    margin-top:  50px;
+    
+}
+
+.display h2{
+    font-size: max(2vw,24px);
+    font-weight: 600;
+}
+
+.food-display-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+    column-gap: 20px;
+    
+    row-gap: 50px;
+    overflow-x: scroll;
+    margin-right: 8%;
+    
+}
+
+
+.food-display-list::-webkit-scrollbar{
+    display: none;
+    
+}
+.info{
+    padding: 10px;
+}
+.price{
+    font-size: 22px;
+    color: tomato;
+}

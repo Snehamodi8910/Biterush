@@ -1,0 +1,45 @@
+.cart{
+    margin-top: 100px;
+    margin-left: 10%;
+
+}
+
+.items-title{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
+    align-items: center;
+    color: black;
+    font-size: max(1vw,12px);
+
+}
+
+.items-item{
+    margin: 10px 0px;
+    
+}
+
+.items-item img{
+    width: 45%;
+}
+.bottom{
+    margin-top:80px;
+    display: flex;
+    justify-content: space-between;
+    gap: max(12vw,20px)
+}
+/*imp*/
+.total{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    gap:20px
+
+
+}
+.total button{
+    background-color: tomato;
+    color:white;
+    width: max(20vw,180px);
+    border-radius: 6%;
+    padding: 2px;
+}

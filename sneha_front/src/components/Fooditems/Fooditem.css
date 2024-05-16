@@ -1,0 +1,27 @@
+.food-item{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #00000015;
+    transition: 0.2s;
+    animation: fadeIn 1s;
+   
+}
+.img{
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+   
+}
+.img-conatiner{
+    position: relative;
+}
+
+.item-count{
+    display: flex;
+    gap: 15px;
+}
+.counter{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 500;
+}
